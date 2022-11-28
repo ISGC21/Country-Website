@@ -1,0 +1,46 @@
+/*
+
+    selector {
+        property: value;
+        property: value;
+        property: value;
+        etc.
+    }
+
+    Selector options::after
+
+    tag name, such as p or img
+    .classname, such as .green or .highlighted
+    tag.class, such as h1.green or p.highlighted
+
+    tagname>tagname
+    .classname>tagname
+    tagname>.classname
+    .classname>.classname
+*/
+
+.nav {
+    list-style: none;   
+
+    border-style: dotted;
+    
+    padding-left: 0;
+    
+    width: 50%;
+
+    margin: auto;
+
+    text-align:center;
+}    
+
+.nav>li{
+    border-style:inherit;
+
+    display: inline-block;
+}
+
+img {
+    display: block;
+    width: 20%;
+    margin-left: 33%;
+}
